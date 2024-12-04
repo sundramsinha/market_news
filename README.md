@@ -41,8 +41,8 @@ A simple Flutter application that fetches and displays market-related news artic
 
 ## Folder Structure
 
-    ```
-            market_news/
+  
+        market_news/
         ├── assets/                  # Folder for assets like images and JSON
         │   ├── news_articles.json   # JSON file containing news data
         │   └── background.jpg       # Background image for the app
@@ -53,7 +53,7 @@ A simple Flutter application that fetches and displays market-related news artic
         │   └── main.dart            # Entry point of the application
         ├── pubspec.yaml             # Flutter configuration file
         └── README.md                # This file
-    ```
+     
 
 ## Dependencies
 
@@ -68,24 +68,17 @@ Add these dependencies in your pubspec.yaml file:
 
 ```
 dependencies:
-flutter:
-sdk: flutter
-url_launcher: ^6.0.20
+   flutter:
+   sdk: flutter
+   url_launcher: ^6.0.20
 ```
 
 ## Screenshots
 
-- Home Page
+| Home Page | News List Page | News Details Page |
+|-----------|----------------|--------------------|
+| [![image.png](https://i.postimg.cc/c4g37Vf5/image.png)](https://postimg.cc/HVmjdvZQ) | [![image-1.png](https://i.postimg.cc/d3Dyxfp3/image-1.png)](https://postimg.cc/5QdyHsxW) | [![image-2.png](https://i.postimg.cc/JzjBvZ6N/image-2.png)](https://postimg.cc/87P5rJVc) |
 
-![alt text](image.png)
-
-- News List Page
-
-![alt text](image-1.png)
-
-- News Details Page
-
-![alt text](image-2.png)
 
 ### How to Contribute
 
