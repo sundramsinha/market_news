@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart'; // To load the JSON file
 import 'package:market_news/news/news_article.dart';
-import 'package:market_news/news/news_details_page.dart';
 import 'package:market_news/news/news_search_delegate.dart';
+import '../news_details_page.dart'; // Import the NewsDetailsPage
 
 class NewsListPage extends StatefulWidget {
   const NewsListPage({super.key});
