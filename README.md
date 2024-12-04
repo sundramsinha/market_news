@@ -41,7 +41,6 @@ A simple Flutter application that fetches and displays market-related news artic
 
 ## Folder Structure
 
-  
         market_news/
         ├── assets/                  # Folder for assets like images and JSON
         │   ├── news_articles.json   # JSON file containing news data
@@ -53,7 +52,6 @@ A simple Flutter application that fetches and displays market-related news artic
         │   └── main.dart            # Entry point of the application
         ├── pubspec.yaml             # Flutter configuration file
         └── README.md                # This file
-     
 
 ## Dependencies
 
@@ -75,23 +73,19 @@ dependencies:
 
 ## Screenshots
 
-| Home Page | News List Page | News Details Page |
-|-----------|----------------|--------------------|
+| Home Page                                                                            | News List Page                                                                           | News Details Page                                                                        |
+| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | [![image.png](https://i.postimg.cc/c4g37Vf5/image.png)](https://postimg.cc/HVmjdvZQ) | [![image-1.png](https://i.postimg.cc/d3Dyxfp3/image-1.png)](https://postimg.cc/5QdyHsxW) | [![image-2.png](https://i.postimg.cc/JzjBvZ6N/image-2.png)](https://postimg.cc/87P5rJVc) |
-
 
 ### How to Contribute
 
 1. Fork this repository.
 2. Create a new branch:  
-   `       git checkout -b feature-branch
-  `
+   `      git checkout -b feature-branch`
 3. Commit your changes:
-   `     git commit -m "Add your message"
- `
+   `    git commit -m "Add your message"`
 4. Push to your branch:
-   `      git push origin feature-branch
-  `
+   `     git push origin feature-branch`
 5. Open a Pull Request.
 
 ## License
