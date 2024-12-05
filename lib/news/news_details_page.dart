@@ -143,13 +143,26 @@ class NewsDetailsPage extends StatelessWidget {
             Center(
               child: ElevatedButton(
                 onPressed: () async {
-                  final Uri url = Uri.parse(article.url);
-                  if (await canLaunchUrl(url)) {
-                    await launchUrl(url, mode: LaunchMode.externalApplication);
-                  } else {
+                  try {
+                    final String url = article.url;
+
+                    if (await launchUrl(
+                      Uri.parse(url),
+                      mode: LaunchMode.externalApplication,
+                    )) {
+                    } else {
+                      // Show snackbar if the URL cannot be opened
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(
+                          content: Text("Could not open the article URL."),
+                        ),
+                      );
+                    }
+                  } catch (e) {
                     ScaffoldMessenger.of(context).showSnackBar(
                       const SnackBar(
-                        content: Text("Could not open the article URL."),
+                        content:
+                            Text("An error occurred while opening the URL."),
                       ),
                     );
                   }
